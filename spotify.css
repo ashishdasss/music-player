@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+    background-color: rgb(24, 11, 35);
+}
+
+h2{
+    margin: 12px;
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 10px;
+}
+
+.brand img{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder; 
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    margin: 25px auto;
+    width: 60%;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 5px 0;
+}
+.icons i{
+    padding: 5px;
+    cursor: pointer;
+    size: 45px;
+}
+
+#myProgressBar{
+     width: 50vw;
+     text-align: center;
+     cursor: pointer;
+}
+
+.songitems{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songinfo{
+    position: absolute;
+    left: 5vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.songitems img{
+    width: 43px;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 34px;
+}
+.timestap{
+    margin: 23px;
+}
+.timestap i{
+    cursor: pointer;
+}
